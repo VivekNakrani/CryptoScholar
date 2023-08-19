@@ -20,7 +20,7 @@ export default function ClaimPage() {
                     <Stack spacing={4}>
                         <Heading fontSize="5xl">Claim Free Tokens</Heading>
                         <Text fontSize="xl">
-                            Claim your FREE Tokens. You do not have to pay for gas to claim your Free Tokens. Use these token to test and try the transfer feature of this dApp.
+                            Claim your FREE Tokens. Just pay for gas to claim your Free Tokens. Use these token to test and try the transfer feature of this dApp.
                         </Text>
                         <Text fontWeight="bold">Select any listed Token to Claim {claimAmount} Tokens</Text>
                         <Box>
