@@ -122,20 +122,6 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 768px) {
-  .header {
-    margin-left: 0;
-  }
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-  .title {
-    font-size: 3rem;
-    line-height: 1.15;
-  }
-}
-
 .card,
 .footer {
   border-color: #222;
@@ -205,4 +191,100 @@
   margin-bottom: 2rem;
   max-width: 32%;
   margin: 0.5%;
+}
+
+/*Responsive*/
+
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 40em) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .grid {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card,
+  .NFTCard {
+    max-width: 100%;
+  }
+
+  .gradientText0,
+  .gradientText1,
+  .gradientText2,
+  .gradientText3 {
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .grid {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .card,
+  .NFTCard {
+    max-width: 48%;
+  }
+
+  .gradientText0,
+  .gradientText1,
+  .gradientText2,
+  .gradientText3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .grid {
+    gap: 20px;
+  }
+
+  .card,
+  .NFTCard {
+    max-width: 32%;
+  }
+
+  .gradientText0,
+  .gradientText1,
+  .gradientText2,
+  .gradientText3 {
+    font-size: 2rem;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .grid {
+    gap: 25px;
+  }
+
+  .card,
+  .NFTCard {
+    max-width: 24%;
+  }
+
+  .gradientText0,
+  .gradientText1,
+  .gradientText2,
+  .gradientText3 {
+    font-size: 2.5rem;
+  }
 }

@@ -3,7 +3,6 @@ import { ThirdwebProvider, coinbaseWallet, localWallet, metamaskWallet, trustWal
 import { ChakraProvider } from "@chakra-ui/react";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 const activeChain = "mumbai";
 
@@ -25,7 +24,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         </Head>
         <Navbar />
         <Component {...pageProps} />
-        <Footer />
       </ChakraProvider>
     </ThirdwebProvider>
   );

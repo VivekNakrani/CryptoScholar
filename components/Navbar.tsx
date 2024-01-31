@@ -2,6 +2,8 @@ import { Container, Flex, Text } from "@chakra-ui/react";
 import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import { MediaRenderer } from "@thirdweb-dev/react";
+import { LOGO_IMAGE_URL } from "../const/addresses";
 
 export default function Navbar() {
     const address = useAddress();
@@ -17,19 +19,14 @@ export default function Navbar() {
                             fontWeight: "bold",
                             fontSize: "24px",
                             letterSpacing: "-0.5px",
-                            marginBottom: "10px", // Corrected here
+                            marginBottom: "10px",
                         }}
                     >
-                        <span
-                            style={{
-                                width: "50px",
-                                height: "50px",
-                                borderRadius: "50%",
-                                background: "#ff9a8b",
-                                marginRight: "10px",
-                            }}
+                        <MediaRenderer
+                            src={LOGO_IMAGE_URL}
+                            height="100%"
+                            width="100%"
                         />
-                        DigiWalletHub
                     </span>
                 </Link>
                 {address && (

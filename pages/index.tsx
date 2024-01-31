@@ -5,6 +5,7 @@ import { FEATURES_IMAGE_URL, HERO_IMAGE_URL } from "../const/addresses";
 import FeatureCard from "../components/FeatureCard";
 import Link from "next/link";
 import Events from "../components/Events";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -99,7 +100,9 @@ const Home: NextPage = () => {
         </Flex>
       </SimpleGrid>
       <Events />
+      <Footer />
     </Container>
+    
   );
 };
 
