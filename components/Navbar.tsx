@@ -43,8 +43,8 @@ export default function Navbar() {
                         <Link href={`/profile/${address}`}>
                             <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">My Account</Text>
                         </Link>
-                        <Link href={'https://mumbaifaucet.com/'}>
-                            <Text fontSize="xl" fontWeight="bold">Faucet Funds</Text>
+                        <Link href={"/learn"}>
+                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">Learn</Text>
                         </Link>
                     </Flex>
                 )}
