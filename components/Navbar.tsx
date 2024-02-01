@@ -35,10 +35,10 @@ export default function Navbar() {
                             <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">Transfer</Text>
                         </Link>
                         <Link href={"/claim"}>
-                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">Claim Token</Text>
+                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">Tokens</Text>
                         </Link>
                         <Link href={"/NFT"}>
-                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">Claim NFT</Text>
+                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">NFT</Text>
                         </Link>
                         <Link href={`/profile/${address}`}>
                             <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">My Account</Text>

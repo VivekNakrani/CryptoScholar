@@ -3,7 +3,7 @@ export const CONTRACT_ADDRESS = '0x0898A65d442bDaeca45E5e8D29FCA5d37E6209cC';
 export const STK_CLAIM_TOKEN_CONTRACT_ADDRESS = '0x6CF8ac6f4C794ea0f0a5DAF644419BC8F8Bcaaba';
 export const HTK_CLAIM_TOKEN_CONTRACT_ADDRESS = '0x0cd242b1bd46e8A39fcfBDC7e159f212171e1D17';
 
-export const HERO_IMAGE_URL = 'ipfs://QmazFcvP1xTpcH2fGABnFzQ5HBVFXFNUMn8Q3UnjQBEqwr/My%20project.jpg';
-export const FEATURES_IMAGE_URL = 'ipfs://QmcmrdbtyvJNvgionnQvk1nRHr6nKRRSiDNiGoyRWr1BVz/6220377.jpg';
+export const HERO_IMAGE_URL = 'ipfs://QmQEajobCYMnChucSRoJBzkTSRn8KgMJjHgvJQ4tWqpJhG/10782808_19199233.jpg';
+export const FEATURES_IMAGE_URL = 'ipfs://QmWpaXrDiyoPeUzuAWy6x72cCMumVZxgmHaEND5CrCGu8t/6220377.jpg';
 export const CLAIM_TOKEN_IMAGE = 'ipfs://QmYvu4QBgwBasV7bghVcSz4fN7FmobbpGRNnMVQWuUJ9Ca/6383213.jpg';
 export const LOGO_IMAGE_URL = 'ipfs://QmPrtV7gCPZexy9SKegT3K4MBcidbEQd4LZLGwunVtV93A/logo.png';

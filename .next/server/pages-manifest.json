@@ -3,5 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
+  "/NFT": "pages/NFT.js",
+  "/claim": "pages/claim.js",
   "/transfer": "pages/transfer.js"
 }
