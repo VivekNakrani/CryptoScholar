@@ -7,7 +7,7 @@ function Footer() {
       <Divider />
       <Container maxW={"1440px"} textAlign="center">
         <Text fontSize="xl" fontWeight="extrabold">
-        Copyright © 2024 SmartCryptoEd, Inc.
+        Copyright © 2024 CryptoScholar, Inc.
         </Text>
       </Container>
     </Container>

@@ -24,8 +24,8 @@ export default function Navbar() {
                     >
                         <MediaRenderer
                             src={LOGO_IMAGE_URL}
-                            height="100%"
-                            width="100%"
+                            height="70%"
+                            width="70%"
                         />
                     </span>
                 </Link>
@@ -37,7 +37,7 @@ export default function Navbar() {
                         <Link href={"/claim"}>
                             <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">Tokens</Text>
                         </Link>
-                        <Link href={"/NFT"}>
+                        <Link href={"/nft"}>
                             <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">NFT</Text>
                         </Link>
                         <Link href={`/profile/${address}`}>

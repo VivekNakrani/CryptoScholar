@@ -9,7 +9,7 @@ import {
   useContract, 
   useContractMetadata, 
   useTotalCirculatingSupply, 
-  useTotalCount
+  useTotalCount 
 } from "@thirdweb-dev/react";
 import { CONTRACT_ADDRESS } from "../const/addresses";
 import { ethers } from "ethers";
@@ -28,12 +28,12 @@ const Home: NextPage = () => {
   const {
     data: contractMetadata,
     isLoading: isContractMetadataLoading,
-  } = useContractMetadata(contract) ?? { data: undefined, isLoading: true };
+  } = useContractMetadata(contract);
 
   const {
     data: activeClaimPhase,
     isLoading: isActiveClaimPhaseLoading,
-  } = useActiveClaimConditionForWallet(contract, address) ?? { data: undefined, isLoading: true };
+  } = useActiveClaimConditionForWallet(contract, address);
 
   const {
     data: claimIneligibilityReasons,
@@ -49,12 +49,13 @@ const Home: NextPage = () => {
   const {
     data: totalSupply,
     isLoading: isTotalSupplyLoading,
-  } = useTotalCount(contract) ?? { data: undefined, isLoading: true };
-
+  } = useTotalCount(contract);
   const {
     data: totalClaimSupply,
     isLoading: isTotalClaimSupplyLoading,
-  } = useTotalCirculatingSupply(contract) ?? { data: undefined, isLoading: true };
+  } = useTotalCirculatingSupply(contract);
+
+  
 
   const [claimQuantity, setClaimQuantity] = useState(1);
   const increment = () => {
@@ -75,12 +76,12 @@ const Home: NextPage = () => {
           <div className={styles.heroSection}>
             <div className={styles.collectionImage}>
               <MediaRenderer
-                src={contractMetadata?.image}
+                src={contractMetadata.image}
               />
             </div>
             <div>
-              <h1>{contractMetadata?.name}</h1>
-              <p>{contractMetadata?.description}</p>
+              <h1>{contractMetadata.name}</h1>
+              <p>{contractMetadata.description}</p>
               {!isActiveClaimPhaseLoading ? (
                 <div>
                   <p>Claim Phase: {activeClaimPhase?.metadata?.name}</p>

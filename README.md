@@ -1,6 +1,6 @@
-# DigiWalletHub
+# Crypto Scholar
 
-Welcome to DigiWalletHub! This repository contains the code for a decentralized application (dApp) designed for transferring tokens and managing NFTs. 
+Welcome to Crypto Scholar! This repository contains the code for a decentralized application (dApp) designed for transferring tokens and managing NFTs. 
 
 ## Table of Contents
 
@@ -12,22 +12,22 @@ Welcome to DigiWalletHub! This repository contains the code for a decentralized 
 
 ## Introduction
 
-DigiWalletHub is a decentralized application built to facilitate the seamless transfer of tokens and the management of NFTs (non-fungible tokens). It provides a user-friendly interface for performing token transfers, claiming tokens, and interacting with NFTs on the blockchain.
+Crypto Scholar is a decentralized application built to facilitate the seamless transfer of tokens and the management of NFTs (non-fungible tokens). It provides a user-friendly interface for performing token transfers, claiming tokens, and interacting with NFTs on the blockchain.
 
-Head to this link and test my dApp:  https://digiwallethub.netlify.app/
+Head to this link and test my dApp:  https://Cryptoscholar.netlify.app/
 
 ## Features
 
-- **Token Transfer:** Transfer your tokens easily and securely using the DigiWalletHub interface.
+- **Token Transfer:** Transfer your tokens easily and securely using the Crypto Scholar interface.
 - **Token and NFT Claiming:** Claim tokens and NFTs that have been assigned to your wallet address.
 - **User-Friendly Interface:** The dApp features an intuitive and easy-to-use interface for both beginners and experienced users.
 
 ## Getting Started
 
-Follow these steps to set up and run DigiWalletHub on your local machine:
+Follow these steps to set up and run Crypto Scholar on your local machine:
 
 1. Clone this repository: `git clone [repository URL]`
-2. Navigate to the project directory: `cd DigiWalletHub`
+2. Navigate to the project directory: `cd Crypto Scholar`
 3. Install dependencies: `npm install`
 
 ## Usage
@@ -39,7 +39,7 @@ Follow these steps to set up and run DigiWalletHub on your local machine:
 
 ## Contributing
 
-We welcome contributions to DigiWalletHub! If you'd like to contribute, please follow these steps:
+We welcome contributions to Crypto Scholar! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/your-feature-name`
@@ -47,4 +47,4 @@ We welcome contributions to DigiWalletHub! If you'd like to contribute, please f
 4. Push to the branch: `git push origin feature/your-feature-name`
 5. Open a pull request.
 
-Thank you for using DigiWalletHub!
+Thank you for using Crypto Scholar!

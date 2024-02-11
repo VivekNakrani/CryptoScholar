@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { Box, Button, Container, Flex, Heading, SimpleGrid, Stack, Text } from "@chakra-ui/react";
 import { MediaRenderer } from "@thirdweb-dev/react";
-import { FEATURES_IMAGE_URL, HERO_IMAGE_URL } from "../const/addresses";
+import { FEATURES_IMAGE_URL, TRANSFER_IMAGE_URL } from "../const/addresses";
 import FeatureCard from "../components/FeatureCard";
 import TransferCard from "../components/TransferCard";
 import Events from "../components/Events";
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <TransferCard/>
           <Box m={[0]}>
             <MediaRenderer
-              src={HERO_IMAGE_URL}
+              src={TRANSFER_IMAGE_URL}
               height="100%"
               width="100%"
             />

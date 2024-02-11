@@ -27,24 +27,24 @@ export default function CombinedProfile() {
                         {accountAddress ? (
                             <Flex>
                                 <Flex flexDirection={"column"} mr={8} p={10}>
-                                    <Avatar size={"2xl"} mb={4}/>
-                                    <Text 
-                                        fontSize={"sm"} 
-                                        border={"1px solid black"} 
-                                        textAlign={"center"} 
+                                    <Avatar size={"2xl"} mb={4} />
+                                    <Text
+                                        fontSize={"sm"}
+                                        border={"1px solid black"}
+                                        textAlign={"center"}
                                         borderRadius={4}
                                     >{truncateAddress(accountAddress)}</Text>
                                 </Flex>
                                 <Flex flexDirection={"column"} w={"100%"}>
                                     <Heading>Token Balances</Heading>
                                     <SimpleGrid columns={3} spacing={4} mt={4}>
-                                    {!isVerifiedTokensLoading ? (
-                                        verifiedTokens.map((token: string) => (
-                                            <BalanceCard key={token} tokenAddress={token} />
-                                        ))
-                                    ) : (
-                                        <Spinner />
-                                    )}
+                                        {!isVerifiedTokensLoading ? (
+                                            verifiedTokens.map((token: string) => (
+                                                <BalanceCard key={token} tokenAddress={token} />
+                                            ))
+                                        ) : (
+                                            <Spinner />
+                                        )}
                                     </SimpleGrid>
                                 </Flex>
                             </Flex>
@@ -55,7 +55,7 @@ export default function CombinedProfile() {
                         )}
                     </Container>
                     <div>
-                        <h3>My NFTs:</h3>
+                        <Heading m={[5]}>My NFTs</Heading>
                         <div className={styles.grid}>
                             {!isOwnedNFTsLoading ? (
                                 ownedNFTs?.length! > 0 ? (
