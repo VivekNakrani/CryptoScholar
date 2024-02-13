@@ -72,12 +72,10 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        {!isContractMetadataLoading && (
+        {!isContractMetadataLoading && contractMetadata ? (
           <div className={styles.heroSection}>
             <div className={styles.collectionImage}>
-              <MediaRenderer
-                src={contractMetadata.image}
-              />
+              <MediaRenderer src={contractMetadata.image} />
             </div>
             <div>
               <h1>{contractMetadata.name}</h1>
@@ -138,10 +136,12 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
+        ) : (
+          <p>Loading contract metadata...</p>
         )}
       </main>
     </div>
-  );
+  );  
 };
 
 export default Home;
