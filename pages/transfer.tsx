@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import type { NextPage } from "next";
 import { Box, Button, Container, Flex, Heading, SimpleGrid, Stack, Text } from "@chakra-ui/react";
 import { MediaRenderer } from "@thirdweb-dev/react";

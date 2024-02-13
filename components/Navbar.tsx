@@ -32,19 +32,22 @@ export default function Navbar() {
                 {address && (
                     <Flex flexDirection={{ base: "column", md: "row" }} mt={{ base: "10px", md: "0" }}>
                         <Link href={"/transfer"}>
-                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">Transfer</Text>
+                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 8 }} fontSize="xl" fontWeight="bold">Transfer</Text>
                         </Link>
                         <Link href={"/claim"}>
-                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">Tokens</Text>
+                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 8 }} fontSize="xl" fontWeight="bold">Tokens</Text>
                         </Link>
                         <Link href={"/nft"}>
-                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">NFT</Text>
-                        </Link>
-                        <Link href={`/profile/${address}`}>
-                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">My Account</Text>
+                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 8 }} fontSize="xl" fontWeight="bold">NFT</Text>
                         </Link>
                         <Link href={"/learn"}>
-                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 4 }} fontSize="xl" fontWeight="bold">Learn</Text>
+                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 8 }} fontSize="xl" fontWeight="bold">Learn</Text>
+                        </Link>
+                        <Link href={"https://faucet.polygon.technology"}>
+                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 8 }} fontSize="xl" fontWeight="bold">Testnet Funds</Text>
+                        </Link>
+                        <Link href={`/profile/${address}`}>
+                            <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 8 }} fontSize="xl" fontWeight="bold">My Account</Text>
                         </Link>
                     </Flex>
                 )}

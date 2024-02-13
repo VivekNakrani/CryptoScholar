@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { Box, Container, Flex, Heading, SimpleGrid, Stack, Text, useToast } from "@chakra-ui/react";
 import { MediaRenderer, Web3Button, useContract, useContractMetadata } from "@thirdweb-dev/react";
 import { STK_CLAIM_TOKEN_CONTRACT_ADDRESS, HTK_CLAIM_TOKEN_CONTRACT_ADDRESS, CLAIM_TOKEN_IMAGE } from "../const/addresses";
@@ -12,6 +13,9 @@ export default function ClaimPage() {
 
     return (
         <Container maxW="1440px" h="80vh">
+            <Head>
+                <title>Crypto Scholar - Claim Token</title>
+            </Head>
             <SimpleGrid columns={2} spacing={10} h="100%">
                 <Flex m={[50, 50]}>
                     <MediaRenderer src={CLAIM_TOKEN_IMAGE} height="90%" width="100%" />

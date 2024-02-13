@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Head from 'next/head';
 import { Box, Button, Container, Flex, Heading, SimpleGrid, Stack, Text } from "@chakra-ui/react";
 import { MediaRenderer } from "@thirdweb-dev/react";
 import { FEATURES_IMAGE_URL, HERO_IMAGE_URL } from "../const/addresses";
@@ -10,6 +11,9 @@ import Footer from "../components/Footer";
 const Home: NextPage = () => {
   return (
     <Container maxW={"1440px"}>
+    <Head>
+    <title>Crypto Scholar</title>
+  </Head>
       <Flex h={"75vh"} px={20} borderRadius={20}>
         <Flex flexDirection={"row"} w={"100%"}>
           <Flex flexDirection={"column"} justifyContent={"center"} w={"60%"}>
