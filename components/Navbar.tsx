@@ -43,7 +43,7 @@ export default function Navbar() {
                         <Link href={"/learn"}>
                             <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 8 }} fontSize="xl" fontWeight="bold">Learn</Text>
                         </Link>
-                        <Link href={"https://faucet.polygon.technology"}>
+                        <Link href={"https://www.alchemy.com/faucets/polygon-mumbai"}>
                             <Text mb={{ base: "10px", md: 0 }} mr={{ base: 0, md: 8 }} fontSize="xl" fontWeight="bold">Testnet Funds</Text>
                         </Link>
                         <Link href={`/profile/${address}`}>
